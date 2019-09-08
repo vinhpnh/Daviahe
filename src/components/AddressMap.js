@@ -11,7 +11,7 @@ export default class AddressMap extends Component {
                     <div className="gmap_canvas">
                         <iframe width="100%" height="400" id="gmap_canvas"
                             src="https://maps.google.com/maps?q=180%20Ly%20Thuong%20Kiet%2C%20Quan%2010%2C%20Ho%20Chi%20Minh%2C%20Viet%20Nam&t=&z=17&ie=UTF8&iwloc=&output=embed"
-                            frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+                            frameBorder="0" scrolling="no" marginHeight="0" marginWidth="0">
                         </iframe>
                         <a href="https://www.pureblack.de">pureblack.de</a>
                     </div>
