@@ -13,7 +13,7 @@ export default class ProductDetailComponent extends Component {
                             <h1 className="title">
                                 Gạch lát tự chèn chữ nhật
                             </h1>
-                            <div itemprop="description">
+                            <div className="description">
                                 <p><span>Tiêu chuẩn: TCVN 6476: 2011 hoặc theo yêu cầu đặt hàng</span></p>
                                 <p><span>Giấy chứng nhận hợp chuẩn</span></p>
                                 <p><span>Chứng chỉ thí&nbsp;nghiệm: Trung Tâm 3 hoặc ĐH Bách Khoa TP HCM hoặc tương đương</span></p>

@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faHome, faAddressBook, faPhone, faMailBulk, faMobile } from '@fortawesome/free-solid-svg-icons';
 
 export default class Footer extends Component {
     render() {
@@ -7,70 +9,94 @@ export default class Footer extends Component {
                 <footer className="footer-custom">
                     <div className="container">
                         <div className="row">
-                            <div className="col-xs-12 col-md-3">
-                                <div className="sum-history w-footer">
-                                    <h6 className="widget-title">Cty TNHH Hoàng Lam</h6>
-                                    <div className="text-widget">
-                                        Được thành lập vào tháng 10 năm 2003 đã có những bước phát triển không ngừng trong lĩnh
-                                        vực cảnh quan đô thị.Với tác dụng cải tạo khí hậu – lá phổi của thành phố, nâng cao sức
-                                        khỏe con người, cây xanh ngày càng đóng vai trò quan trọng. Để mang lại hiệu quả tối
-                                        ưu, đồng thời đạt tính thẫm mỹ cao giữa kiến trúc và cây xanh cần am hiểu về các loại
-                                        cây và có sự phối kết hợp lý.
-                            </div>
-                                </div>
-                            </div>
-                            <div className="col-xs-12 col-md-3">
-                                <div className="product-list w-footer">
-                                    <h6 className="widget-title">
-                                        Danh mục sản phẩm
-                            </h6>
-                                    <div className="menu-footer-menu-container">
-                                        <ul className="menu">
-                                            <li className="menu-item"><a href="#">Cây Xanh</a> </li>
-                                            <li className="menu-item"><a href="#">Cỏ</a> </li>
-                                            <li className="menu-item"><a href="#">Dây Leo</a> </li>
-                                            <li className="menu-item"><a href="#">Kiểng Có Hoa</a> </li>
-                                            <li className="menu-item"><a href="#">Kiểng Lớn</a> </li>
-                                            <li className="menu-item"><a href="#">Kiểng Lá</a> </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-xs-12 col-md-3">
-                                <div className="service-list w-footer">
-                                    <h6 className="widget-title">
-                                        Dịch vụ
-                            </h6>
-                                    <div className="menu-footer-menu-container">
-                                        <ul className="menu">
-                                            <li className="menu-item"><a href="#">Tất cả dịch vụ</a> </li>
-                                            <li className="menu-item"><a href="#">Tư vấn và thiết kế cảnh quan</a> </li>
-                                            <li className="menu-item"><a href="#">Chăm sóc và bảo dưỡng cảnh quan</a> </li>
-                                            <li className="menu-item"><a href="#">Thi công cảnh quan</a> </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-xs-12 col-md-3">
-                                <div className="google-maps w-footer">
+                            <div className="info-company col-xs-6 col-sm-6 col-md-6 col-lg-6">
 
+                                <div className="row">
+                                    <div className="fm_company_left col-xs-5 col-sm-5 col-md-5 col-lg-5">
+                                        <div>
+                                            <img alt="" style={{ width: 200, height: 200 }} src="https://gachviahe.vn/wp-content/uploads/2017/09/logo-my-thanh-14752410845.png" />
+                                        </div>
+                                    </div>
+                                    <div className="fm_company_right col-xs-7 col-sm-7 col-md-7 col-lg-7">
+                                        <div className="wg-title">
+                                            <span>
+                                                <FontAwesomeIcon icon={faHome} className="icon-awesome" />
+                                                <strong>CÔNG TY TNHH THỔ MỸ THÀNH</strong>
+                                            </span>
+                                        </div>
+                                        <div>
+                                            <FontAwesomeIcon icon={faAddressBook} className="icon-awesome" />
+                                            <span>35D Gò Nổi, KP. 3, P. Phú Hữu, Q. 9, TP. HCM</span>
+                                        </div>
+                                        <div>
+                                            <FontAwesomeIcon icon={faPhone} className="icon-awesome" />
+                                            &nbsp;028.22 00 55 69
+                                        </div>
+                                        <div>
+                                            <FontAwesomeIcon icon={faMobile} className="icon-awesome" />
+                                            <span>0906 792 168 - 0901 836 168</span>
+                                        </div>
+                                        <div>
+                                            <FontAwesomeIcon icon={faMailBulk} className="icon-awesome" />
+                                            <span>gachviahe.vn@gmail.com</span>
+                                        </div>
+                                    </div>
                                 </div>
+                                <div className="clear">
+                                </div>
+                            </div>
+                            <div className="info_link col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                                <div className="row">
+                                    <div className="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                                        <div id="nav_menu-2">
+                                            <div className="wg-title"><span><strong>THÔNG TIN</strong></span></div>
+                                            <div className="link-content">
+                                                <div className="menu-thong-tin-container">
+                                                    <ul id="menu-thong-tin">
+                                                        <li><a href="#">Giới thiệu</a></li>
+                                                        <li><a href="#">Liên hệ</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                                        <div id="nav_menu-3" className="widget node widget_nav_menu">
+                                            <div className="wg-title"><span><strong>SẢN PHẨM</strong></span></div>
+                                            <div className="link-content">
+                                                <div className="menu-san-pham-container">
+                                                    <ul id="menu-san-pham">
+                                                        <li><a href="#">Sản phẩm 01</a></li>
+                                                        <li><a href="#">Sản phẩm 01</a></li>
+                                                        <li><a href="#">Sản phẩm 01</a></li>
+                                                        <li><a href="#">Sản phẩm 01</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                                        <div id="nav_menu-4">
+                                            <div className="wg-title"><span><strong>HƯỚNG DẪN</strong></span></div>
+                                            <div className="link-content">
+                                                <div className="menu-huong-dan-container">
+                                                    <ul id="menu-huong-dan">
+                                                    <li><a href="#">Giao Nhận – Thanh Toán</a></li>
+                                                        <li><a href="#">Tiêu chí bán hàng</a></li>
+                                                        <li><a href="#">Hướng dẫn thanh toán</a></li>
+                                                        <li><a href="#">Chính sách bảo mật</a></li>
+                                                        <li><a href="#">Hỗ trợ T2 – T7</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="clear"></div>
                             </div>
                         </div>
                     </div>
                 </footer>
-                <div className="bottom-footer">
-                    <div className="container">
-                        <div className="row">
-                            <div className="col-xs-12 col-md-4">
-                                <p>Copyright 2016. Developed by
-                            <a href="#">123website</a>
-                                </p>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
             </div>
         );
     }

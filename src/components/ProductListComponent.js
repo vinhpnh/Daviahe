@@ -5,6 +5,7 @@ export default class ProductListComponent extends Component {
     render() {
         return (
             <div className="container">
+                <div className="widget-title">Sản Phẩm Tiêu Biểu</div>
                 <div className="row">
                     <div className="col-sm">
                         <div className="product-item">

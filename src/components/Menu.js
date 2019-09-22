@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCaretDown } from '@fortawesome/free-solid-svg-icons';
 
 export default class Menu extends Component {
     render() {
@@ -20,11 +22,10 @@ export default class Menu extends Component {
                                     <Link className="nav-link" href={'/home'}>Trang Chủ <span className="sr-only">(current)</span></Link>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="#">Giới Thiệu</a>
+                                    <Link className="nav-link" href={'/overview'}>Giới Thiệu</Link>
                                 </li>
                                 <li className="nav-item has-sub-menu">
-                                    <a className="nav-link" href="#">Sản phẩm</a>
-                                    <span className="add-sub-menu"></span>
+                                    <a className="nav-link" href="#">Sản phẩm <FontAwesomeIcon icon={faCaretDown} /></a>
                                     <ul className="sub-menu" role="menu">
                                         <li className="sub-menu-item">
                                             <a href="#">
@@ -44,7 +45,7 @@ export default class Menu extends Component {
                                     </ul>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="#">Liên Hệ</a>
+                                    <Link className="nav-link" href={'/contact'}>Liên Hệ</Link>
                                 </li>
                             </ul>
                         </div>
