@@ -661,7 +661,7 @@ blockquote {
   color: #a2c046;
 }
 
-/* -------------------------- slider ------------------------------ */
+/* -------------------------- Product list item ------------------------------ */
 .product-item {
   margin: 20px 0;
   padding: 20px 0;
@@ -687,6 +687,45 @@ blockquote {
   text-align: center;
   font-weight: bold;
   font-size: 16px;
+}
+/* ---------------- Product detail --------------------*/
+.detail-content {
+  font-size: 15px;
+  margin-top: 30px;
+  padding: 30px;
+  background: #fff;
+  box-shadow: 0 4px 24px rgba(0,0,0,.08);
+  border-radius: 8px;
+  width: 100%;
+  margin-bottom: 50px;
+  position: relative;
+  border: 1px solid rgba(0,0,0,.1);
+  overflow: hidden;
+  word-wrap: break-word;
+}
+
+.product-detail-img {
+  width: 100%;
+}
+
+.product-detail-info {
+  margin: 20px;
+}
+
+.detail-header {
+  border: 1px solid #ccc;
+  color: #fff;
+  display: inline-block;
+  border-bottom: none;
+  border-radius: 5px 5px 0 0;
+  padding: 10px;
+  background: #71e271;
+}
+
+.detail-info {
+  border: 1px solid #ccc;
+  border-radius: 0 0 5px 5px;
+  padding: 20px;
 }
 
 /* ---------------- Reply from Customer --------------------*/

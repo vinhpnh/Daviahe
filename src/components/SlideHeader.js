@@ -11,7 +11,7 @@ export default class SlideHeader extends Component {
                 </ol>
                 <div className="carousel-inner">
                     <div className="carousel-item active carousel-item-custom">
-                        <img className="d-block w-100" src="img/img.jpg" alt="First slide" />
+                        <img className="d-block w-100" src="http://localhost:3000/img/img.jpg" alt="First slide" />
                         <div className="container">
                             <div className="carousel-text">
                                 <div className="carousel-topheading">Chất lượng được đảm bảo</div>
@@ -28,7 +28,7 @@ export default class SlideHeader extends Component {
                         </div>
                     </div>
                     <div className="carousel-item carousel-item-custom">
-                        <img className="d-block w-100" src="img/img2.jpg" alt="Second slide" />
+                        <img className="d-block w-100" src="http://localhost:3000/img/img2.jpg" alt="Second slide" />
                         <div className="container">
                             <div className="carousel-text">
                                 <div className="carousel-topheading">Chăm sóc chế độ đặc biệt</div>
@@ -45,7 +45,7 @@ export default class SlideHeader extends Component {
                         </div>
                     </div>
                     <div className="carousel-item carousel-item-custom">
-                        <img className="d-block w-100" src="img/img3.jpg" alt="Third slide" />
+                        <img className="d-block w-100" src="http://localhost:3000/img/img3.jpg" alt="Third slide" />
                         <div className="container">
                             <div className="carousel-text">
                                 <div className="carousel-topheading">Chất lượng được đảm bảo</div>

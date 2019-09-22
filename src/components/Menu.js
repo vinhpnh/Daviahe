@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router';
 
 export default class Menu extends Component {
     render() {
@@ -7,7 +8,7 @@ export default class Menu extends Component {
                 <div className="container">
                     <nav className="navbar navbar-expand-lg navbar-light bg-light main-menu">
                         <a href="#" className="icon-home">
-                            <img src="img/home-logo.jpg" width="95px" />
+                            <img src="http://localhost:3000/img/home-logo.jpg" width="95px" />
                         </a>
                         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -16,7 +17,7 @@ export default class Menu extends Component {
                         <div className="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul className="navbar-nav mr-auto main-navbar">
                                 <li className="nav-item">
-                                    <a className="nav-link" href="#">Trang Chủ <span className="sr-only">(current)</span></a>
+                                    <Link className="nav-link" href={'/home'}>Trang Chủ <span className="sr-only">(current)</span></Link>
                                 </li>
                                 <li className="nav-item">
                                     <a className="nav-link" href="#">Giới Thiệu</a>
