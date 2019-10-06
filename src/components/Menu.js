@@ -6,7 +6,7 @@ import { faCaretDown } from '@fortawesome/free-solid-svg-icons';
 export default class Menu extends Component {
     render() {
         return (
-            <header className="header-custom">
+            <div className="header-custom">
                 <div className="container">
                     <nav className="navbar navbar-expand-lg navbar-light bg-light main-menu">
                         <a href="#" className="icon-home">
@@ -51,7 +51,7 @@ export default class Menu extends Component {
                         </div>
                     </nav>
                 </div>
-            </header>
+            </div>
         );
     }
 }

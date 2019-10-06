@@ -8,6 +8,8 @@ export default class Footer extends Component {
             <div>
                 <footer className="footer-custom">
                     <div className="container">
+
+
                         <div className="row">
                             <div className="info-company col-xs-6 col-sm-6 col-md-6 col-lg-6">
 
@@ -21,24 +23,20 @@ export default class Footer extends Component {
                                         <div className="wg-title">
                                             <span>
                                                 <FontAwesomeIcon icon={faHome} className="icon-awesome" />
-                                                <strong>CÔNG TY TNHH THỔ MỸ THÀNH</strong>
+                                                <strong>THIẾT BỊ VÀ VẬT LIỆU XÂY DỰNG BÌNH DƯƠNG</strong>
                                             </span>
                                         </div>
                                         <div>
                                             <FontAwesomeIcon icon={faAddressBook} className="icon-awesome" />
-                                            <span>35D Gò Nổi, KP. 3, P. Phú Hữu, Q. 9, TP. HCM</span>
+                                            <span>VĨNH PHÚ 41, HÒA LONG, THUẬN AN, BÌNH DƯƠNG</span>
                                         </div>
                                         <div>
                                             <FontAwesomeIcon icon={faPhone} className="icon-awesome" />
-                                            &nbsp;028.22 00 55 69
-                                        </div>
-                                        <div>
-                                            <FontAwesomeIcon icon={faMobile} className="icon-awesome" />
-                                            <span>0906 792 168 - 0901 836 168</span>
+                                            &nbsp;091.129.7.129
                                         </div>
                                         <div>
                                             <FontAwesomeIcon icon={faMailBulk} className="icon-awesome" />
-                                            <span>gachviahe.vn@gmail.com</span>
+                                            <span>nghitruong@gmail.com</span>
                                         </div>
                                     </div>
                                 </div>
@@ -81,7 +79,7 @@ export default class Footer extends Component {
                                             <div className="link-content">
                                                 <div className="menu-huong-dan-container">
                                                     <ul id="menu-huong-dan">
-                                                    <li><a href="#">Giao Nhận – Thanh Toán</a></li>
+                                                        <li><a href="#">Giao Nhận – Thanh Toán</a></li>
                                                         <li><a href="#">Tiêu chí bán hàng</a></li>
                                                         <li><a href="#">Hướng dẫn thanh toán</a></li>
                                                         <li><a href="#">Chính sách bảo mật</a></li>

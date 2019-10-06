@@ -4,7 +4,7 @@ export default class AddressMap extends Component {
     render() {
         return (
             <div className="container">
-                <div className="row">
+                <div className="row andress-map">
                     <div className="widget-title">
                         <span className="clr-light">Bản </span>đồ chỉ đường
                     </div>
