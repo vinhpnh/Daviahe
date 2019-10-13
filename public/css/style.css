@@ -241,6 +241,12 @@ blockquote {
 .carousel-item .btn-contact:hover {
   background-color: rgba(250, 250, 250, 0.33);
 }
+.image-full {
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 /* -------------------------- content ------------------------------ */
 #support-service {
   margin-top: 50px;
@@ -1205,4 +1211,5 @@ blockquote {
 #carouselExampleIndicators {
   padding: 15px;
   margin-top: 80px;
+  width: 100%;
 }
